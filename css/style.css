@@ -1918,6 +1918,7 @@ Main Header
   color: #808287;
   line-height: 20px;
 }
+
 .header-top .useful-links li:first-child {
   margin-left: 0;
   padding-left: 0;
@@ -1956,10 +1957,11 @@ Main Header
 }
 .main-header .header-lower .logo-box {
   position: relative;
-  padding: 24px 0;
-  background-color: white;
-  width: 20px;
-  
+  display: flex;
+height: 200%;
+  width: 90px;
+  z-index: 2;
+    
 }
 
 .main-header {
@@ -1969,6 +1971,7 @@ Main Header
 .main-header .logo {
   position: relative;
   display: block;
+  display: flex;
 }
 .main-header .logo img {
   max-width: 100%;
