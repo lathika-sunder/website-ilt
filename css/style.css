@@ -1,6 +1,6 @@
-/* Oitech | IT Solutions & Technology HTML Template
+/* Infologia | IT Solutions & Technology HTML Template
 
-Template Name: Oitech
+Template Name: Infologia
 Version: 1.0.0
 License: copyright commercial
 
@@ -50,7 +50,7 @@ License: copyright commercial
 @import url("tm-utility-classes.css");
 :root {
   --theme-color1: #222429;
-  --theme-color2: #ffaa17;
+  --theme-color2:#287EDF ;
   --theme-color3: #f4f5f8;
   --bg-theme-color1: var(--theme-color1);
   --bg-theme-color2: var(--theme-color2);
@@ -1248,7 +1248,7 @@ Scroll To Top style
   height: 62px;
   width: 62px;
   border-radius: 50%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   content: "";
 }
 .play-now-two i {
@@ -1273,7 +1273,7 @@ Scroll To Top style
 }
 
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 
 .select2-container--default .select2-search--dropdown .select2-search__field {
@@ -1378,7 +1378,7 @@ Scroll To Top style
   height: 100%;
   width: 100%;
   content: "";
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   -webkit-transform: scale(1, 0);
           transform: scale(1, 0);
   -webkit-transform-origin: bottom left;
@@ -1482,7 +1482,7 @@ Scroll To Top style
   height: 100%;
   width: 100%;
   content: "";
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   -webkit-transform: scale(1, 0);
           transform: scale(1, 0);
   -webkit-transform-origin: bottom left;
@@ -1735,7 +1735,7 @@ Scroll To Top style
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.95;
 }
 .search-popup .close-search {
@@ -1957,7 +1957,9 @@ Main Header
 .main-header .header-lower .logo-box {
   position: relative;
   padding: 24px 0;
-  min-width: 280px;
+  background-color: white;
+  width: 20px;
+  
 }
 
 .main-header {
@@ -1973,6 +1975,7 @@ Main Header
   height: auto;
 }
 .main-header .main-box {
+  
   position: relative;
   left: 0px;
   top: 0px;
@@ -1986,6 +1989,7 @@ Main Header
   transition: all 300ms ease;
 }
 .main-header .main-box .nav-outer {
+  
   position: relative;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2001,6 +2005,7 @@ Main Header
 
 .main-menu {
   position: relative;
+  
 }
 
 .main-menu .navbar-header {
@@ -2020,6 +2025,8 @@ Main Header
   position: relative;
   float: left;
   padding: 25px 0px;
+  
+
   margin-right: 55px;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -2048,7 +2055,7 @@ Main Header
   text-align: center;
   opacity: 1;
   color: #767676;
-  font-size: 16px;
+  font-size: 12px;
   line-height: 30px;
   font-weight: 500;
   padding: 0;
@@ -2308,7 +2315,7 @@ Main Header
   text-align: center;
   border-radius: 50%;
   color: #fff;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   font-size: 18px;
 }
 .main-header .info-btn:hover {
@@ -2342,7 +2349,7 @@ Header Style One
           justify-content: center;
   margin-top: -40px;
   padding: 20px 20px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   border-right: 10px solid var(--border-theme-color2);
 }
 .header-style-one .header-lower .main-box {
@@ -2367,11 +2374,11 @@ Header Style One
   position: relative;
   margin: 0;
   padding: 0 80px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .header-style-two .header-top .inner-container {
   padding: 0;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .header-style-two .header-top .useful-links li,
 .header-style-two .header-top .list-style-one li {
@@ -2422,7 +2429,7 @@ Header Style One
 .header-style-three .header-top .inner-container {
   padding-right: 40px;
   padding-left: 250px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .header-style-three .header-top .list-style-one li {
   font-size: 13px;
@@ -2457,7 +2464,7 @@ Header Style One
   padding: 10px 20px;
   text-align: center;
   margin-top: -40px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   height: 130px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -2557,7 +2564,7 @@ Header Style One
       -ms-flex-pack: center;
           justify-content: center;
   padding: 20px 20px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 
 /*** 
@@ -2799,7 +2806,7 @@ Sticky Header
   display: block;
   line-height: 24px;
   padding: 10px 20px;
-  font-size: 16px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: 400;
   text-transform: capitalize;
@@ -2814,7 +2821,7 @@ Sticky Header
   width: 44px;
   height: 44px;
   text-align: center;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 44px;
   color: #ffffff;
   cursor: pointer;
@@ -3033,6 +3040,9 @@ Section Title
   background-color: var(--bg-theme-color2);
   content: "";
 }
+.title2{
+  background-color: rgba(0, 0, 55, 0.2);
+}
 .main-slider h1 {
   position: relative;
   display: block;
@@ -3110,8 +3120,8 @@ Section Title
   left: 0;
   top: 0;
   height: 100%;
+  
   width: 100%;
-  background-color: var(--bg-theme-color1);
   opacity: 0.6;
   content: "";
 }
@@ -3130,7 +3140,6 @@ Section Title
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 0.04em;
-  background-color: rgba(255, 255, 255, 0.1);
   margin-bottom: 20px;
 }
 .banner-section .content-box .title {
@@ -3168,7 +3177,7 @@ Section Title
   height: 54px;
   width: 54px;
   border-radius: 50%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -3375,7 +3384,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+background-color: #01050E;
   opacity: 0.6;
   content: "";
   z-index: 1;
@@ -3464,7 +3473,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.7;
   content: "";
   z-index: 1;
@@ -3802,7 +3811,7 @@ Section Title
   transition: all 400ms linear;
 }
 .feature-block-three .inner-box:hover .image .icon {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
 }
 .feature-block-three .inner-box:hover .title {
@@ -3908,7 +3917,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.8;
   content: "";
   -webkit-transition: all 300ms ease;
@@ -3969,7 +3978,7 @@ Section Title
   color: var(--theme-color1);
 }
 .feature-block-five .inner-box:hover .count {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: #ffffff;
   -webkit-box-shadow: 0 10px -30px rgba(0, 0, 0, 0.2);
           box-shadow: 0 10px -30px rgba(0, 0, 0, 0.2);
@@ -3987,7 +3996,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.7;
   content: "";
   -webkit-transition: all 300ms ease;
@@ -4674,7 +4683,7 @@ Section Title
   -webkit-transition: all 3000ms ease;
   transition: all 3000ms ease;
   border-radius: 10px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .skills .skill-item .skill-bar .bar-inner .skill-percentage {
   position: absolute;
@@ -4777,7 +4786,7 @@ Section Title
   bottom: 0;
   width: 100%;
   height: 10px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   content: "";
 }
 
@@ -5122,7 +5131,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 200px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   content: "";
 }
 .about-section-six .image-column .image-box:after {
@@ -5180,7 +5189,7 @@ Section Title
   transition: all 300ms ease;
 }
 .about-block-four:hover .icon {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
   -webkit-transform: rotate(180deg) scale(-1);
           transform: rotate(180deg) scale(-1);
@@ -5413,7 +5422,7 @@ Section Title
 .services-section-two {
   position: relative;
   padding: 120px 0 70px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   z-index: 1;
 }
 .services-section-two:before {
@@ -5462,7 +5471,7 @@ Section Title
           flex-direction: column;
   padding: 40px 20px;
   text-align: center;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
   min-height: 290px;
@@ -5549,7 +5558,7 @@ Section Title
   overflow: hidden;
   height: 100%;
   padding: 25px 25px 25px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -5755,7 +5764,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.9;
   content: "";
 }
@@ -5948,7 +5957,7 @@ Section Title
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.5;
   content: "";
   pointer-events: none;
@@ -6313,7 +6322,7 @@ Section Title
   display: block;
   height: 16px;
   width: 16px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   border-radius: 50%;
   z-index: 2;
   cursor: pointer;
@@ -6325,7 +6334,7 @@ Section Title
   content: "";
   width: 50px;
   height: 50px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   border-radius: 50%;
   -webkit-animation: ripple 2s infinite linear;
           animation: ripple 2s infinite linear;
@@ -6482,7 +6491,7 @@ Section Title
 ***/
 .offer-section {
   position: relative;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .offer-section:before {
   position: absolute;
@@ -6684,7 +6693,7 @@ Section Title
   color: var(--bg-theme-color1);
 }
 .offer-section-two .content-column .sec-title .sub-title:before {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .offer-section-two .content-column .sec-title .text {
   font-size: 16px;
@@ -6711,7 +6720,7 @@ Section Title
           justify-content: center;
   height: 64px;
   width: 64px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   line-height: 1em;
   font-size: 16px;
   font-weight: 700;
@@ -6786,7 +6795,7 @@ Section Title
           justify-content: center;
   height: 140px;
   width: 140px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: #fff;
   font-size: 24px;
 }
@@ -6910,7 +6919,7 @@ Section Title
   margin-top: 5px;
   height: 60px;
   width: 60px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   line-height: 1em;
   font-size: 16px;
   font-weight: 700;
@@ -6970,7 +6979,7 @@ Section Title
   position: absolute;
   left: -15px;
   bottom: 20px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   height: 190px;
   width: 190px;
   border-radius: 50%;
@@ -7021,7 +7030,7 @@ Section Title
           animation: zoom-one 2s infinite linear;
 }
 .offer-section-three .image-column .video-box .play-btn:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: #fff;
 }
 
@@ -7256,7 +7265,7 @@ Section Title
   height: 140px;
   width: 140px;
   border-radius: 50%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
   font-size: 78px;
   display: -webkit-box;
@@ -7527,7 +7536,7 @@ Section Title
   cursor: pointer;
 }
 .work-tabs .tab-buttons .tab-btn.active-btn {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: #ffffff;
 }
 .work-tabs .content-column {
@@ -7594,7 +7603,7 @@ Section Title
           transform: translateY(-5px);
 }
 .counter-block .inner:hover .icon {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--bg-theme-color2);
   border-radius: 50%;
 }
@@ -7827,7 +7836,7 @@ Section Title
   margin-bottom: 50px;
 }
 .project-section.style-two {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-image: url(../images/icons/pattern-14.jpg);
   background-repeat: no-repeat;
   background-position: center top;
@@ -7957,7 +7966,7 @@ Section Title
   opacity: 0;
 }
 .project-block .image-box .icon:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
 }
 .project-block .content-box {
@@ -8142,7 +8151,7 @@ Section Title
   top: 0;
   height: 460px;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-image: url(../images/icons/pattern-12.jpg);
   background-repeat: no-repeat;
   background-position: center;
@@ -8274,7 +8283,7 @@ Section Title
   transition: none;
 }
 .project-block-three .image-box .overlay-box .icon:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
   -webkit-transition-delay: 0ms;
           transition-delay: 0ms;
@@ -8543,7 +8552,7 @@ Section Title
   transition: all 300ms ease;
 }
 .testimonial-block-two .content-box:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .testimonial-block-two .content-box:hover .text {
   color: #ffffff;
@@ -8636,7 +8645,7 @@ Section Title
   border-top-right-radius: 0;
 }
 .testimonial-block-three .inner-box:hover .content-box {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .testimonial-block-three .inner-box:hover .content-box .name,
 .testimonial-block-three .inner-box:hover .content-box .text {
@@ -8663,7 +8672,7 @@ Section Title
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   border-radius: 50%;
   font-size: 14px;
   color: #ffffff;
@@ -8803,7 +8812,7 @@ Section Title
 .testimonial-block-four .content-box {
   position: relative;
   display: block;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-image: url(../images/icons/shape-12.png);
   background-position: left top;
   background-repeat: no-repeat;
@@ -8923,7 +8932,7 @@ Section Title
   width: 100%;
   max-height: 550px;
   background-image: url(../images/icons/pattern-11.png);
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   content: "";
 }
 .video-section .outer-box {
@@ -8953,7 +8962,7 @@ Section Title
   height: 100%;
   width: 100%;
   content: "";
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.3;
 }
 .video-section .video-box .content {
@@ -8993,7 +9002,7 @@ Section Title
   transition: all 300ms ease;
 }
 .video-section .video-box .content .play-btn i:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
   border-radius: 10px;
 }
@@ -9157,7 +9166,7 @@ Section Title
   transition: all 300ms ease;
 }
 .why-choose-us-two .image-column .image-box .play-btn:hover {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
 }
 
@@ -9281,7 +9290,7 @@ Section Title
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-image: url(../images/icons/pattern-16.png);
   content: "";
 }
@@ -9318,7 +9327,7 @@ Section Title
   display: block;
 }
 .industries-section.style-two {
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .industries-section.style-two:before {
   background-image: url(../images/icons/pattern-22.jpg);
@@ -9408,7 +9417,7 @@ Section Title
 .pricing-block .inner-box {
   position: relative;
   padding: 58px 60px 60px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   text-align: center;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -9531,7 +9540,7 @@ Section Title
 .pricing-block-app .inner-box {
   position: relative;
   padding: 58px 60px 60px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   text-align: center;
   -webkit-transition: all 300ms ease;
   transition: all 300ms ease;
@@ -9833,7 +9842,7 @@ Section Title
   top: 0;
   bottom: 120px;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   -webkit-transform: scaleY(0);
           transform: scaleY(0);
   -webkit-transform-origin: top;
@@ -9955,7 +9964,7 @@ Section Title
 }
 .team-block-two .social-links a:hover {
   color: #ffffff;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 
 /*** 
@@ -10021,7 +10030,7 @@ Section Title
   top: 30px;
   padding: 40px 30px;
   padding-left: 140px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   z-index: 2;
 }
 .contact-section .image-column .image-box .info-box .icon {
@@ -10215,7 +10224,7 @@ Section Title
 .contact-section-two .info-column .info-box:hover .icon {
   -webkit-transform: rotate(180deg) scale(-1);
           transform: rotate(180deg) scale(-1);
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   color: var(--theme-color2);
 }
 .contact-section-two .info-column .info-box .icon {
@@ -10266,7 +10275,7 @@ Section Title
 .contact-section-three {
   position: relative;
   padding: 120px 0 70px;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
 }
 .contact-section-three:before {
   position: absolute;
@@ -10373,7 +10382,7 @@ Section Title
   top: 0;
   min-height: 570px;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   background-image: url(../images/icons/pattern-23.jpg);
   content: "";
 }
@@ -14882,13 +14891,14 @@ Sidebar
   top: 0;
   height: 100%;
   width: 100%;
-  background-color: var(--bg-theme-color1);
+   background-color: white;
   opacity: 0.92;
   content: "";
 }
 
 /* Widget Section */
 .main-footer .widgets-section {
+  background-color: var(--bg-theme-color1);
   position: relative;
   padding: 110px 0 65px;
 }
